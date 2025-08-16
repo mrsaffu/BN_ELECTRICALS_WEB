@@ -9,8 +9,8 @@ const CompanyStats = () => {
 
   const statsData = [
     { id: 1, icon: <BsTools />, value: 150, suffix: "+", title: "Services" },
-    { id: 2, icon: <BsPeopleFill />, value: 350, suffix: "+", title: "Service Providers" },
-    { id: 3, icon: <BsEmojiSmileFill />, value: 1200, suffix: "+", title: "Happy Customers" }
+    { id: 2, icon: <BsPeopleFill />, value: 250, suffix: "+", title: "Service Providers" },
+    { id: 3, icon: <BsEmojiSmileFill />, value: 30, suffix: "+", title: "Happy Customers" }
   ];
 
   useEffect(() => {

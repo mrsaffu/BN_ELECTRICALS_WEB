@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import "../styles/testimonials.css";
 
-import testi1 from "../assets/Testimonial/testi1.jpg"
-import testi2 from "../assets/Testimonial/testi2.jpg"
-import testi3 from "../assets/Testimonial/testi3.jpg"
-import testi4 from "../assets/Testimonial/testi4.jpg"
+import testi1 from "../assets/Testimonial/testi1.jpg";
+import testi2 from "../assets/Testimonial/testi2.jpg";
+import testi3 from "../assets/Testimonial/testi3.jpg";
+import testi4 from "../assets/Testimonial/testi4.jpg";
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,36 +13,32 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Mohammad shahnawaz",
-      role: "Property Manager, Teleindia",
-      image:
-        testi1,
+      role: " TeleIndia",
+      image: testi1,
       testimonial:
         "BN Electricals combines expertise with reliability. Their team ensures every project is completed with precision, and their attention to safety and detail is truly commendable.",
     },
     {
       id: 2,
       name: "Vikash kumar",
-      role: "Operations Director, RPP electrical",
-      image:
-        testi2,
+      role: " RPP electrical",
+      image: testi2,
       testimonial:
         "The professionalism of BN Electricals stands out. From consultation to execution, they deliver seamless service, clear communication, and excellent workmanship.",
     },
     {
       id: 3,
       name: "Mohd nayab",
-      role: "Facility Manager, Residential Complex",
-      image:
-        testi3,
+      role: " RPP Electrical",
+      image: testi3,
       testimonial:
         "Whenever we needed quick solutions, BN Electricals was always there. Their transparent pricing and dependable support make them a trusted partner for all our electrical needs.",
     },
-      {
+    {
       id: 4,
       name: "Mohammad nematullah",
-      role: "Facility Manager, Azam Electrical",
-      image:
-        testi4,
+      role: " Azam Electrical",
+      image: testi4,
       testimonial:
         "BN Electricals consistently delivers reliable and professional service. Their team responds quickly to emergencies, and their transparent pricing makes them a trusted choice for all our electrical needs.",
     },

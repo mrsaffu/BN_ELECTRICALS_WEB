@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 const Hero = () => {
   const handleCallNow = () => {
     // Clean phone number format for tel: links
-    const phoneNumber = 'tel:+919870528091'; // Australian format
+    const phoneNumber = 'tel:+918971942796'; // Australian format
     window.location.href = phoneNumber;
   };
 

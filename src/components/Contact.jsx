@@ -2,10 +2,9 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
 
-// Yahan apne EmailJS ke IDs paste karo
-const SERVICE_ID = "service_8tmf3qe"; // <-- EmailJS Service ID
-const TEMPLATE_ID = "template_ktrhqwu"; // <-- EmailJS Template ID
-const PUBLIC_KEY = "2Z9ctaT2U4P-Z1-Z8"; // <-- EmailJS Public Key
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -44,7 +43,7 @@ const Contact = () => {
       setFormData({ name: "", email: "", phone: "", service: "", message: "" });
     } catch (error) {
       console.error("FAILED...", error);
-      alert("❌ Sorry, the email could not be sent. Please try again later.");
+      alert(" Sorry, the email could not be sent. Please try again later.");
     } finally {
       setLoading(false);
     }

@@ -1,36 +1,50 @@
 import { useState, useEffect } from "react";
 import "../styles/testimonials.css";
 
+import testi1 from "../assets/Testimonial/testi1.jpg"
+import testi2 from "../assets/Testimonial/testi2.jpg"
+import testi3 from "../assets/Testimonial/testi3.jpg"
+import testi4 from "../assets/Testimonial/testi4.jpg"
+
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
     {
       id: 1,
-      name: "Jennifer Martinez",
-      role: "Property Manager, Downtown Complex",
+      name: "Mohammad shahnawaz",
+      role: "Property Manager, Teleindia",
       image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+        testi1,
       testimonial:
-        "BN Electricals transformed our entire office electrical system. Their professionalism and attention to detail exceeded our expectations. The team was punctual, efficient, and delivered exceptional results.",
+        "BN Electricals combines expertise with reliability. Their team ensures every project is completed with precision, and their attention to safety and detail is truly commendable.",
     },
     {
       id: 2,
-      name: "Robert Thompson",
-      role: "Operations Director, Manufacturing Corp",
+      name: "Vikash kumar",
+      role: "Operations Director, RPP electrical",
       image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+        testi2,
       testimonial:
-        "Outstanding service from start to finish. BN Electricals handled our industrial power upgrade with expertise and minimal downtime. Their 30+ years of experience really shows in their work quality.",
+        "The professionalism of BN Electricals stands out. From consultation to execution, they deliver seamless service, clear communication, and excellent workmanship.",
     },
     {
       id: 3,
-      name: "Lisa Chen",
+      name: "Mohd nayab",
       role: "Facility Manager, Residential Complex",
       image:
-        "https://images.unsplash.com/photo-1494790108755-2616c0763c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+        testi3,
       testimonial:
-        "Reliable, professional, and cost-effective. BN Electricals has been our go-to electrical contractor for over 5 years. Their emergency response is exceptional, and their pricing is always fair and transparent.",
+        "Whenever we needed quick solutions, BN Electricals was always there. Their transparent pricing and dependable support make them a trusted partner for all our electrical needs.",
+    },
+      {
+      id: 4,
+      name: "Mohammad nematullah",
+      role: "Facility Manager, Azam Electrical",
+      image:
+        testi4,
+      testimonial:
+        "BN Electricals consistently delivers reliable and professional service. Their team responds quickly to emergencies, and their transparent pricing makes them a trusted choice for all our electrical needs.",
     },
   ];
 

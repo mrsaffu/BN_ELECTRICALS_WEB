@@ -12,6 +12,7 @@ const About = () => {
       name: "Mohammad Barkat",
       role: "Director",
       image: director,
+      sub:"Visionary Leadership & Strategic Growth",
       description:
         "Guiding the company’s growth with strategic foresight, Mohammad Barkat ensures that every project reflects BN Electricals’ core values of safety, precision, and client satisfaction.",
     },
@@ -20,13 +21,15 @@ const About = () => {
       name: "Mohammad Naushad",
       role: "Chief Executive Officer",
       image: ceo,
+      sub:"Driving Excellence & Client Success",
       description:
         "A visionary leader, Mohammad Naushad is the driving force behind BN Electricals. With a passion for delivering innovative electrical solutions, he ensures every client experiences unmatched quality, reliability, and service excellence.",
     },
     {
       id: 3,
       name: "Md Enayat",
-      role: "Site Engineer",
+      role: "Project Engineer",
+      sub:"Ensuring Precision & On-Site Quality",
       image: site_eng,
       description:
         "The backbone of our on-site execution, Md Enayat combines deep technical expertise with meticulous attention to detail, guaranteeing flawless installations that stand the test of time.",
@@ -37,6 +40,7 @@ const About = () => {
       name: "Md Tufail",
       role: "Supervisor",
       image: supervisor,
+      sub:"Operational Efficiency & Team Coordination",
       description:
         "A master at coordinating people and processes, Md Tufail ensures projects run smoothly, efficiently, and to the highest safety standards — from start to finish.",
     },
@@ -102,7 +106,7 @@ const About = () => {
                     <h4>{member.name}</h4>
                     <p className="member-role">{member.role}</p>
                     <p className="member-preview">
-                   Shaping BN Electricals’ success through visionary leadership and client-focused expertise
+                   {member.sub}
                     </p>
                   </div>
                   <div className="profile-card-back">

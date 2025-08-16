@@ -1,5 +1,5 @@
 import "../styles/footer.css";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
 const Footer = () => {
   const handleNavClick = (e, targetId) => {
     e.preventDefault();
@@ -18,11 +18,13 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section company-info">
             <div className="footer-brand">
-              <h3><img className="nav-logo" src={logo} alt="" /> Electricals</h3>
+              <h3>
+                <img className="nav-logo" src={logo} alt="" /> Electricals
+              </h3>
               <p>Electrical Contractors & Engineers</p>
             </div>
             <p className="company-description">
-              Professional electrical services with over 30 years of trusted
+              Professional electrical services with over 3+ years of trusted
               expertise. Licensed electrical engineers providing residential,
               commercial, and industrial solutions across Perth and surrounding
               areas.
@@ -85,7 +87,7 @@ const Footer = () => {
                 <p>
                   NO101 Nanjappa Colony Block A
                   <br />
-                  Bengaluru Karnataka  560045, India
+                  Bengaluru Karnataka 560045, India
                 </p>
               </div>
               <div className="contact-detail">
@@ -104,14 +106,14 @@ const Footer = () => {
               <div className="contact-detail">
                 <i className="fas fa-envelope"></i>
                 <p>
-                 <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=bnelectrical178@gmail.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="email-link"
-                    >
-                      bnelectrical178@gmail.com
-                    </a>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=bnelectrical178@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="email-link"
+                  >
+                    bnelectrical178@gmail.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -129,7 +131,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            &copy; 2024 BN Electricals. All rights reserved. Licensed Electrical
+            &copy; 2021 BN Electricals. All rights reserved. Licensed Electrical
             Contractors & Engineers.
           </p>
         </div>

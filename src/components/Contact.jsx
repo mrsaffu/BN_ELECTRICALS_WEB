@@ -86,6 +86,11 @@ const Contact = () => {
                   </p>
                   <p>
                     <a href="tel:+918971942796" className="phone-link">
+                      +91 98705 28091
+                    </a>
+                  </p>
+                    <p>
+                    <a href="tel:+918971942796" className="phone-link">
                       +91 89719 42796
                     </a>
                   </p>
@@ -114,7 +119,7 @@ const Contact = () => {
                 <div className="contact-text">
                   <h4>Business Hours</h4>
                   <p>
-                    Mon-Fri: 7:00 AM - 6:00 PM
+                    Mon-Sat: 10:00 AM - 6:00 PM
                     <br />
                     24/7 Emergency Service Available
                   </p>
@@ -193,6 +198,20 @@ const Contact = () => {
               </button>
             </form>
           </div>
+        </div>
+             {/* Google Map */}
+        <div className="map-container fade-in">
+          <iframe
+            title="BN Electricals Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.030069722863!2d77.6321195!3d12.905788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15bb813895d5%3A0xf5135b6a77142071!2sBN%20Electrical%20ptv!5e0!3m2!1sen!2sin!4v1755372316125!5m2!1sen!2sin"
+            width="100%"
+            height="350"
+            style={{ border: 0, borderRadius: "10px", marginTop: "2rem" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+
         </div>
       </div>
     </section>

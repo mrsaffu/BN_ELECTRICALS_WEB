@@ -12,7 +12,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Mohammad shahnawaz",
+      name: "Mohammad Shahnawaz",
       role: " TeleIndia",
       image: testi1,
       testimonial:
@@ -21,14 +21,14 @@ const Testimonials = () => {
     {
       id: 2,
       name: "Vikash kumar",
-      role: " RPP electrical",
+      role: " RPP Electrical",
       image: testi2,
       testimonial:
         "The professionalism of BN Electricals stands out. From consultation to execution, they deliver seamless service, clear communication, and excellent workmanship.",
     },
     {
       id: 3,
-      name: "Mohd nayab",
+      name: "Mohd Nayab",
       role: " RPP Electrical",
       image: testi3,
       testimonial:
@@ -36,7 +36,7 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      name: "Mohammad nematullah",
+      name: "Mohammad Nematullah",
       role: " Azam Electrical",
       image: testi4,
       testimonial:

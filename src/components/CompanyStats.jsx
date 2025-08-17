@@ -8,9 +8,9 @@ const CompanyStats = () => {
   const [progress, setProgress] = useState(0);
 
   const statsData = [
-    { id: 1, icon: <BsTools />, value: 150, suffix: "+", title: "Services" },
-    { id: 2, icon: <BsPeopleFill />, value: 250, suffix: "+", title: "Service Providers" },
-    { id: 3, icon: <BsEmojiSmileFill />, value: 30, suffix: "+", title: "Happy Customers" }
+    { id: 1, icon: <BsTools />, value: 3, suffix: "+", title: "Year of Jurney" },
+    { id: 2, icon: <BsPeopleFill />, value: 91, suffix: "+", title: "Projects Completed" },
+    { id: 3, icon: <BsEmojiSmileFill />, value: 6, suffix: "+", title: "Happy Customers" }
   ];
 
   useEffect(() => {

@@ -4,7 +4,8 @@ import styled, { keyframes } from "styled-components";
 // Your logo file (replace with your path or import)
 import companyLogo01 from "../assets/rpp.jpg"
 import companyLogo02 from "../assets/comp.png"
-import companyLogo03 from "../assets/indicube.jpeg"
+// import companyLogo03 from "../assets/indicube.jpeg"
+import companyLogo03 from "../assets/Indicube.jpeg"
 
 import companyLogo1 from "../assets/Archimedis-logo-1.png";
 import companyLogo2 from "../assets/cape_start_logo.jpeg";

@@ -4,6 +4,7 @@ import styled, { keyframes } from "styled-components";
 // Your logo file (replace with your path or import)
 import companyLogo01 from "../assets/rpp.jpg"
 import companyLogo02 from "../assets/comp.png"
+import companyLogo03 from "../assets/indicube.jpeg"
 
 import companyLogo1 from "../assets/Archimedis-logo-1.png";
 import companyLogo2 from "../assets/cape_start_logo.jpeg";
@@ -18,7 +19,7 @@ import companyLogo8 from "../assets/Screenshot 2025-08-14 002634.png";
 const logos = [
   companyLogo01,
   companyLogo02,
-
+  companyLogo03,
   companyLogo1,
   companyLogo2,
   companyLogo3,

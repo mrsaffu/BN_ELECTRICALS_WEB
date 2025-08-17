@@ -15,7 +15,7 @@ import companyLogo6 from "../assets/presidio__logo.jpeg";
 import companyLogo7 from "../assets/Screenshot 2025-08-14 002456.png";
 import companyLogo8 from "../assets/Screenshot 2025-08-14 002634.png";
 
-// If you have multiple logos, put them in this array
+// If you have multiple logos, put them in this array/
 const logos = [
   companyLogo01,
   companyLogo02,
